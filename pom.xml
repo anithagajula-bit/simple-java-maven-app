@@ -18,6 +18,11 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <properties>
+    <sonar.projectKey>simple-java-app</sonar.projectKey>
+    <sonar.projectName>simple-java-app</sonar.projectName>
+    <sonar.host.url>http://65.1.108.147:9000</sonar.host.url>
+</properties>
   <build>
     <pluginManagement>
       <plugins>
@@ -73,8 +78,3 @@
     </plugins>
   </build>
 </project>
-<properties>
-    <sonar.projectKey>simple-java-app</sonar.projectKey>
-    <sonar.projectName>simple-java-app</sonar.projectName>
-    <sonar.host.url>http://65.1.108.147:9000</sonar.host.url>
-</properties>
